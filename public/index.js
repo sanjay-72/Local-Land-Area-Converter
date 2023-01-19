@@ -136,3 +136,14 @@ sft.addEventListener("input", function () {
         acre.value = "";
     }
 });
+
+var nameText = document.getElementById("nameText");
+var nameTextEng = document.getElementById("nameTextEng");
+
+nameText.addEventListener("click", function () {
+    nameText.innerHTML = "😉";
+});
+
+nameTextEng.addEventListener("click", function () {
+    nameText.innerHTML = "😉";
+});
