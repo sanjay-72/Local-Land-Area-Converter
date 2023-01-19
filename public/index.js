@@ -116,7 +116,7 @@ sft.addEventListener("input", function () {
     if (this.value != "") {
         s = this.value;
         g = s / 9;
-        c = g / 48;
+        c = g / 48.4;
         a = c / 100;
         gun = a * 40;
         if (!Number.isInteger(g)) g = g.toFixed(3);

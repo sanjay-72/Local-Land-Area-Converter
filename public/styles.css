@@ -17,6 +17,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#nameText {
+    margin: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 2rem;
+}
+
+#nameTextEng {
+    margin: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -28,7 +43,7 @@ h1 {
     padding: 2rem;
     border-radius: .7rem;
     width: 40rem;
-    margin: 10rem auto;
+    margin: 4rem auto;
     box-shadow: 0 .2rem 1rem rgba(0, 0, 0, .4);
     transition: .3s;
 }
@@ -43,6 +58,8 @@ h1 {
 .input-wrapper label {
     font-size: 1.8rem;
     text-align: left;
+    font-family: 'Noto Sans Telugu', sans-serif;
+
 }
 
 .input-wrapper input {
@@ -66,6 +83,15 @@ h1 {
 .input-wrapper input::-webkit-outer-spin-button,
 ::-webkit-inner-spin-button {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:460px) {
