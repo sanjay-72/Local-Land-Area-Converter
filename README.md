@@ -5,8 +5,11 @@ I wonder to share that even google is making the same mistake with its online co
 
 I was already learning Full Stack Web Development and made a few projects🧑‍💻. As a responsible person, I took responsibility for removing that error and publishing my accurate converter for our local units😤. Because after a few generations, people will blindly follow internet resources. So, in my view, they must be as accurate as possible.
 
-🤝Thanks to my uncle who pointed out this mistake and thanks🤝 to my instructors who gave me the skills to accomplish this project.
 
 
 # Preview
 ![image](https://user-images.githubusercontent.com/94333583/213599535-a3f261b2-9104-421f-979d-6b0c7280ac5f.png)
+
+
+
+🤝Thanks to my uncle who pointed out this mistake and thanks🤝 to my instructors who gave me the skills to accomplish this project.
