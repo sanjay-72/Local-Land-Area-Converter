@@ -16,7 +16,7 @@ function setAllValues() {
 gaj.addEventListener("input", function () {
     if (this.value != "") {
         g = this.value;
-        c = g / 48.4;
+        c = g / 48.4444445;
         a = c / 100;
         gun = a * 40;
         s = g * 9;
@@ -40,7 +40,7 @@ gaj.addEventListener("input", function () {
 cent.addEventListener("input", function () {
     if (this.value != "") {
         c = this.value;
-        g = c * 48.4;
+        g = c * 48.4444445;
         a = c / 100;
         gun = a * 40;
         s = g * 9;
@@ -67,7 +67,7 @@ gunta.addEventListener("input", function () {
         gun = this.value;
         a = gun / 40;
         c = a * 100;
-        g = c * 48.4;
+        g = c * 48.4444445;
         s = g * 9;
         if (!Number.isInteger(g)) g = g.toFixed(3);
         if (!Number.isInteger(a)) a = a.toFixed(3);
@@ -91,7 +91,7 @@ acre.addEventListener("input", function () {
     if (this.value != "") {
         a = this.value;
         c = a * 100;
-        g = c * 48.4;
+        g = c * 48.4444445;
         gun = a * 40;
         s = g * 9;
         if (!Number.isInteger(g)) g = g.toFixed(3);
@@ -116,7 +116,7 @@ sft.addEventListener("input", function () {
     if (this.value != "") {
         s = this.value;
         g = s / 9;
-        c = g / 48.4;
+        c = g / 48.4444445;
         a = c / 100;
         gun = a * 40;
         if (!Number.isInteger(g)) g = g.toFixed(3);
